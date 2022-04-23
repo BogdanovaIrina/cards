@@ -1,0 +1,25 @@
+.checkbox {
+    appearance: none;
+    margin-top: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.checkbox:checked {
+    appearance: none;
+    background-color: red;
+}
+.checkbox:checked {
+    appearance: none;
+    background-color: darkcyan;
+}
+
+.spanClassName {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+}

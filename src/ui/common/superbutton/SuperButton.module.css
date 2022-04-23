@@ -1,0 +1,23 @@
+.default {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.default:hover {
+    background: beige;
+}
+
+.red {
+    background: red;
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.red:hover {
+    background: firebrick;
+}

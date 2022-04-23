@@ -1,0 +1,16 @@
+.superInput {
+    border: 3px solid black;
+    background: beige;
+}
+
+.errorInput {
+    border: 3px solid darkcyan;
+    background: beige;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
