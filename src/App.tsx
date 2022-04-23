@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Navigate, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import {Login} from "./ui/Login";
 import {Registr} from "./ui/Registr";
 import {Profile} from "./ui/Profile";
@@ -13,8 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/cards" element={<Navigate to="/test" />}/>
-        <Route path={"/cards/login"} element={<Login />} />
+        <Route path={"/login"} element={<Login />} />
         <Route path={"/registr"} element={<Registr />} />
         <Route path={"/profile"} element={<Profile />} />
         <Route path={"/404"} element={<Error />} />
