@@ -1,9 +1,10 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 export const Error = () => {
     return (
         <div>
-            404
+            <NavLink to={'/404'}>404</NavLink>
         </div>
     )
 }
